@@ -81,5 +81,3 @@ test:
 production:
   <<: *default
   database: twatter_production
-  username: twatter
-  password: <%= ENV['TWATTER_DATABASE_PASSWORD'] %>
